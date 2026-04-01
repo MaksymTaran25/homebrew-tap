@@ -1,6 +1,6 @@
 cask "token-usage-monitor" do
-  version "1.1.0"
-  sha256 "75b9ae262734e3e0e8fe5ec4eebb9383b44d9ec08ba393429ce14f3bb1042182"
+  version "1.2.0"
+  sha256 "66a24cbd0e1e6b65f02105a1319ed66a8a60406f67b8dda2f857cf156760fe91"
 
   url "https://github.com/MaksymTaran25/TokenUsageMonitor/releases/download/v#{version}/TokenUsageMonitor.dmg"
   name "Token Usage Monitor"
@@ -10,7 +10,7 @@ cask "token-usage-monitor" do
   app "TokenUsageMonitor.app"
 
   zap trash: [
-    "~/Library/Group Containers/group.com.tokenusagemonitor",
+    "~/Library/Containers/com.tokenusagemonitor.app.widget",
     "~/Library/Preferences/com.tokenusagemonitor.app.plist",
   ]
 end
