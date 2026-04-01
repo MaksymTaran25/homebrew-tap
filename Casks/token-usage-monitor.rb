@@ -1,6 +1,6 @@
 cask "token-usage-monitor" do
   version "1.1.0"
-  sha256 "0355151830545d5970c351fa1bfd1c1f3dd4393a5474c21656dde81e3568c7a5"
+  sha256 "75b9ae262734e3e0e8fe5ec4eebb9383b44d9ec08ba393429ce14f3bb1042182"
 
   url "https://github.com/MaksymTaran25/TokenUsageMonitor/releases/download/v#{version}/TokenUsageMonitor.dmg"
   name "Token Usage Monitor"
